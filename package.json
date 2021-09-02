@@ -1,5 +1,5 @@
 {
-  "name": "gitlab-color-labels",
+  "name": "ascii-color-log",
   "version": "0.1.0",
   "description": "Create ASCII colored console label, for example in CLI scripts or Gitlab pipelines.",
   "main": "src/logger.js",
