@@ -1,0 +1,30 @@
+{
+  "name": "gitlab-color-labels",
+  "version": "0.1.0",
+  "description": "Create ASCII colored console label, for example in CLI scripts or Gitlab pipelines.",
+  "main": "src/logger.js",
+  "scripts": {
+    "test": "jest",
+    "test:coverage": "jest --coverage",
+    "example": "node lib/example-usage.mjs"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/yunic-nl/ascii-color-log.git"
+  },
+  "keywords": [
+    "Gitlab",
+    "CI",
+    "color",
+    "console"
+  ],
+  "author": "Joeri Bijl",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/yunic-nl/ascii-color-log/issues"
+  },
+  "homepage": "https://github.com/yunic-nl/ascii-color-log#readme",
+  "devDependencies": {
+    "jest": "^27.0.6"
+  }
+}
