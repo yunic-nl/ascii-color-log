@@ -1,6 +1,6 @@
 ![coverage](https://img.shields.io/badge/coverage-100%25-green)
 
-# ASCII color log version 1.0
+# ASCII color log version 1.1
 This package is an opiniated log function to create colored log message in CLI. The primary goal for this package is to create colored logs in a gitlab pipeline. By creating colered logs it is easier to read if something has gone wrong, or offcourse if everything is allright.
 
 ## Available colors
@@ -14,8 +14,8 @@ These are two examples how you can use this lib for your project.
 
 ### CommonJS
 ```javascript
-const ASCIIlog = require('../logger');
-const log = new ASCIIlog();
+const ASCIIColorLog = require('../ascii-color-log');
+const log = new ASCIIColorLog();
 
 log.success('This is a success log')
 ```
@@ -23,8 +23,8 @@ log.success('This is a success log')
 
 ### Module
 ```javascript
-import ASCIIlog from './logger.js';
-const log = new ASCIIlog();
+import ASCIIColorLog from './ascii-color-log.js';
+const log = new ASCIIColorLog();
 
 log.success('This is a success log')
 ```
