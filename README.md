@@ -14,7 +14,7 @@ These are two examples how you can use this lib for your project. This are the a
 
 ### CommonJS
 ```javascript
-const ASCIIColorLog = require('../ascii-color-log');
+const ASCIIColorLog = require('ascii-color-log');
 const log = new ASCIIColorLog();
 
 log.success('This is a success log')
@@ -23,7 +23,7 @@ log.success('This is a success log')
 
 ### Module
 ```javascript
-import ASCIIColorLog from './ascii-color-log.js';
+import ASCIIColorLog from 'ascii-color-log.js';
 const log = new ASCIIColorLog();
 
 log.success('This is a success log')
