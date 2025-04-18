@@ -28,3 +28,4 @@ const log = new ASCIIColorLog();
 
 log.success('This is a success log')
 ```
+Sponsor: [JS Jobs](https://js-jobs.com)
